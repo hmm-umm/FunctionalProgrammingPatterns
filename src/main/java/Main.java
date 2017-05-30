@@ -1,8 +1,11 @@
+import java.util.function.UnaryOperator;
+
 //import java.util.ArrayList;
 //import java.util.List;
 //import java.util.function.Function;
 //
 public class Main {
+
 //
 //    interface Functor<T, F extends Functor<?,?>> {
 //        <R> F map(Function<T,R> f);
