@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
     feed.notifyObservers("The queen said her favorite book is kotlin in action")
 
     println("====== NEW ======")
-    val feedK: FeedK = FeedK()
+    val feedK: FeedK<String, Unit> = FeedK()
     feedK.registerObserverK(ObserverFactory.NYTimesK)
     feedK.registerObserverK(ObserverFactory.GuardianK)
     feedK.registerObserverK { tweet -> tweet?.apply { if(contains("book")) println("Breaking news in BOOKTimes") } }
