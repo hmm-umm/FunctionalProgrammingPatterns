@@ -4,6 +4,7 @@ import kotlinex.strategy.new.ValidatorFactory
 import kotlinex.strategy.old.IsAllLowerCase
 import kotlinex.strategy.old.IsNumericCase
 import kotlinex.strategy.old.Validator
+import org.funktionale.currying.curried
 
 fun main(args: Array<String>) {
     println("====== old ======")
@@ -17,6 +18,9 @@ fun main(args: Array<String>) {
     println("====== new ======")
     val value3: Boolean = ValidatorFactory.allLowerValidator("11111")
     println("value3 :: ${value3}")
+    val value3Curred: (String) ->(Regex) -> Boolean = ValidatorFactory.allLowerValidatorCurried.curried()
+    println("value3Curred :: ${value3Curred("1111")}")
+    println("value3Curred :: ${value3Curred("1111")(Regex("[a-z]+"))}")
 
     val value4: Boolean = ValidatorFactory.numericValidator("11111")
     println("value4 :: ${value4}")
