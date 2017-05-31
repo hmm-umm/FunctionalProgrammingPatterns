@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FunctionalProgrammingPatterns.iml" filepath="$PROJECT_DIR$/FunctionalProgrammingPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/functionalprogrammingpatterns.iml" filepath="$PROJECT_DIR$/.idea/modules/functionalprogrammingpatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/functionalprogrammingpatterns_main.iml" filepath="$PROJECT_DIR$/.idea/modules/functionalprogrammingpatterns_main.iml" group="functionalprogrammingpatterns" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/functionalprogrammingpatterns_test.iml" filepath="$PROJECT_DIR$/.idea/modules/functionalprogrammingpatterns_test.iml" group="functionalprogrammingpatterns" />
     </modules>
   </component>
 </project>
