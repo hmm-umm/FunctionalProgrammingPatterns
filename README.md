@@ -1,2 +1,2 @@
 # Functional Programming Patterns
-## OOP Paterns change to Functional Programming Patterns
+## OOP Patterns change to Functional Programming Patterns
