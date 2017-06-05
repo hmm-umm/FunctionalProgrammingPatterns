@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d32a5eb2-506c-48c9-9d6a-fe208d2a535d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/visitor/old/ExcuteExpressionVisitor.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/visitor/old/Expression.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/visitor/old/ExpressionFacade.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/visitor/old/ExpressionVisitor.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/visitor/old/IntExp.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/visitor/old/StringExp.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/visitor/visitorexcute.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/META-INF/functionalprogrammingpatterns_main.kotlin_module" afterPath="$PROJECT_DIR$/build/classes/main/META-INF/functionalprogrammingpatterns_main.kotlin_module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d32a5eb2-506c-48c9-9d6a-fe208d2a535d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -1240,12 +1230,12 @@
       <workItem from="1496232067189" duration="717000" />
       <workItem from="1496359824367" duration="874000" />
       <workItem from="1496620047693" duration="883000" />
-      <workItem from="1496668627032" duration="1674000" />
+      <workItem from="1496668627032" duration="1780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4148000" />
+    <option name="totallyTimeSpent" value="4254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-300" y="-1053" width="1920" height="1053" extended-state="6" />
@@ -1270,7 +1260,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25772098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
