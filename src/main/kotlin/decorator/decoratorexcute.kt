@@ -1,6 +1,8 @@
 package kotlinex.observer
 
+import decorator.new.*
 import decorator.old.*
+import org.funktionale.composition.andThen
 
 
 fun main(args: Array<String>) {
@@ -16,11 +18,13 @@ fun main(args: Array<String>) {
     println("====== old ====== :: ${netSalary} ::  ${healthInsurance.calculate(12000.00)}")
 
     println("====== NEW ======")
-//    val netSalary = DefaultSalaryCalculator()
-//            .andThen(???({ generalTax() }))
-//    .andThen(???({ regionalTax() }))
-//    .andThen(???({ healthInsurance() }))
-//    .applyAsDouble(30000.00)
+    val salaryCalculatorK = SalaryCalculatorK()
+    val newNetSalary = salaryCalculatorK.defaultcalculate andThen salaryCalculatorK.generalApplyTax andThen salaryCalculatorK.regionalApplyTax andThen salaryCalculatorK.healthInsuranceApplyTax
+
+    println("====== NEW ====== :: ${newNetSalary} ::  ${newNetSalary.invoke(12000.00)}")
+
+    val nNewNetSalary = defaultcalculateFun() andThen generalApplyTaxFun() andThen regionalApplyTaxFun() andThen healthInsuranceApplyTaxFun()
+    println("====== nNEW ====== :: ${nNewNetSalary} ::  ${nNewNetSalary.invoke(12000.00)}")
 
     //====
 //    public static double calculate(double gross, DoubleUnaryOperator... fs) {
